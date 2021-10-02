@@ -1,6 +1,6 @@
 package tehnut.chiseltones;
 
-import com.cricketcraft.chisel.api.carving.CarvingUtils;
+import team.chisel.api.carving.CarvingUtils;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;

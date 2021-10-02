@@ -32,11 +32,13 @@ if (new File(projectDir, '.git').exists()) {
 }
 
 repositories {
-    maven { url = "http://maven.tterrag.com/" }
+    maven { url = "https://jitpack.io" }
 }
 
 dependencies {
-    compile "team.chisel:Chisel:${chisel_version}:deobf"
+    compile("com.github.GTMEGA:chisel:${chisel_version}:api"){
+        transitive = false
+    }
     compile fileTree(dir: 'libs', include: '*.jar')
 }
 
